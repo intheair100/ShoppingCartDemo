@@ -10,9 +10,11 @@
 		6D346DC31CAE5A6800688589 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D346DC21CAE5A6800688589 /* main.m */; };
 		6D346DC61CAE5A6800688589 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D346DC51CAE5A6800688589 /* AppDelegate.m */; };
 		6D346DC81CAE5A6800688589 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D346DC71CAE5A6800688589 /* Assets.xcassets */; };
-		6D346DCB1CAE5A6800688589 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D346DC91CAE5A6800688589 /* LaunchScreen.storyboard */; };
 		6D346DD61CAE5A6900688589 /* ShoppingCartDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D346DD51CAE5A6900688589 /* ShoppingCartDemoTests.m */; };
 		6D346DE11CAE5A6900688589 /* ShoppingCartDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D346DE01CAE5A6900688589 /* ShoppingCartDemoUITests.m */; };
+		6DB9BEE81CAE5CCF004AD9DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB9BEE61CAE5CCF004AD9DB /* ViewController.m */; };
+		6DB9BEE91CAE5CCF004AD9DB /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DB9BEE71CAE5CCF004AD9DB /* ViewController.xib */; };
+		6DB9BEEB1CAE5D73004AD9DB /* TabCartSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DB9BEEA1CAE5D73004AD9DB /* TabCartSelected@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +40,6 @@
 		6D346DC41CAE5A6800688589 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6D346DC51CAE5A6800688589 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		6D346DC71CAE5A6800688589 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6D346DCA1CAE5A6800688589 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6D346DCC1CAE5A6800688589 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D346DD11CAE5A6900688589 /* ShoppingCartDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShoppingCartDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D346DD51CAE5A6900688589 /* ShoppingCartDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShoppingCartDemoTests.m; sourceTree = "<group>"; };
@@ -46,6 +47,10 @@
 		6D346DDC1CAE5A6900688589 /* ShoppingCartDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShoppingCartDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D346DE01CAE5A6900688589 /* ShoppingCartDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShoppingCartDemoUITests.m; sourceTree = "<group>"; };
 		6D346DE21CAE5A6900688589 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DB9BEE51CAE5CCF004AD9DB /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6DB9BEE61CAE5CCF004AD9DB /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6DB9BEE71CAE5CCF004AD9DB /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		6DB9BEEA1CAE5D73004AD9DB /* TabCartSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TabCartSelected@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,9 +103,12 @@
 			children = (
 				6D346DC41CAE5A6800688589 /* AppDelegate.h */,
 				6D346DC51CAE5A6800688589 /* AppDelegate.m */,
+				6DB9BEE51CAE5CCF004AD9DB /* ViewController.h */,
+				6DB9BEE61CAE5CCF004AD9DB /* ViewController.m */,
+				6DB9BEE71CAE5CCF004AD9DB /* ViewController.xib */,
 				6D346DC71CAE5A6800688589 /* Assets.xcassets */,
-				6D346DC91CAE5A6800688589 /* LaunchScreen.storyboard */,
 				6D346DCC1CAE5A6800688589 /* Info.plist */,
+				6DB9BEEA1CAE5D73004AD9DB /* TabCartSelected@2x.png */,
 				6D346DC11CAE5A6800688589 /* Supporting Files */,
 			);
 			path = ShoppingCartDemo;
@@ -235,8 +243,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DB9BEE91CAE5CCF004AD9DB /* ViewController.xib in Resources */,
 				6D346DC81CAE5A6800688589 /* Assets.xcassets in Resources */,
-				6D346DCB1CAE5A6800688589 /* LaunchScreen.storyboard in Resources */,
+				6DB9BEEB1CAE5D73004AD9DB /* TabCartSelected@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DB9BEE81CAE5CCF004AD9DB /* ViewController.m in Sources */,
 				6D346DC61CAE5A6800688589 /* AppDelegate.m in Sources */,
 				6D346DC31CAE5A6800688589 /* main.m in Sources */,
 			);
@@ -296,17 +306,6 @@
 			targetProxy = 6D346DDD1CAE5A6900688589 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		6D346DC91CAE5A6800688589 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6D346DCA1CAE5A6800688589 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		6D346DE31CAE5A6900688589 /* Debug */ = {
@@ -394,6 +393,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ShoppingCartDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ShoppingCartDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -405,6 +405,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ShoppingCartDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ShoppingCartDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -478,6 +479,7 @@
 				6D346DE71CAE5A6900688589 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6D346DE81CAE5A6900688589 /* Build configuration list for PBXNativeTarget "ShoppingCartDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -486,6 +488,7 @@
 				6D346DEA1CAE5A6900688589 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6D346DEB1CAE5A6900688589 /* Build configuration list for PBXNativeTarget "ShoppingCartDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +497,7 @@
 				6D346DED1CAE5A6900688589 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
