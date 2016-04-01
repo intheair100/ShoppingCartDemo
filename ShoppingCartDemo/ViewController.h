@@ -10,4 +10,8 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIImageView *iv_cart;
+@property (weak, nonatomic) IBOutlet UIButton *ib_add;
+@property (nonatomic,strong) UIBezierPath *path;
+
 @end
