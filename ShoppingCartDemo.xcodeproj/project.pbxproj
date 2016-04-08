@@ -12,6 +12,7 @@
 		6D346DC81CAE5A6800688589 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D346DC71CAE5A6800688589 /* Assets.xcassets */; };
 		6D346DD61CAE5A6900688589 /* ShoppingCartDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D346DD51CAE5A6900688589 /* ShoppingCartDemoTests.m */; };
 		6D346DE11CAE5A6900688589 /* ShoppingCartDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D346DE01CAE5A6900688589 /* ShoppingCartDemoUITests.m */; };
+		6D42EA291CB7912A007CC5A3 /* thing.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D42EA281CB7912A007CC5A3 /* thing.png */; };
 		6DB9BEE81CAE5CCF004AD9DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB9BEE61CAE5CCF004AD9DB /* ViewController.m */; };
 		6DB9BEE91CAE5CCF004AD9DB /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DB9BEE71CAE5CCF004AD9DB /* ViewController.xib */; };
 		6DB9BEEB1CAE5D73004AD9DB /* TabCartSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DB9BEEA1CAE5D73004AD9DB /* TabCartSelected@2x.png */; };
@@ -47,6 +48,7 @@
 		6D346DDC1CAE5A6900688589 /* ShoppingCartDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShoppingCartDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D346DE01CAE5A6900688589 /* ShoppingCartDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShoppingCartDemoUITests.m; sourceTree = "<group>"; };
 		6D346DE21CAE5A6900688589 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D42EA281CB7912A007CC5A3 /* thing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thing.png; sourceTree = "<group>"; };
 		6DB9BEE51CAE5CCF004AD9DB /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		6DB9BEE61CAE5CCF004AD9DB /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6DB9BEE71CAE5CCF004AD9DB /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				6D346DC71CAE5A6800688589 /* Assets.xcassets */,
 				6D346DCC1CAE5A6800688589 /* Info.plist */,
 				6DB9BEEA1CAE5D73004AD9DB /* TabCartSelected@2x.png */,
+				6D42EA281CB7912A007CC5A3 /* thing.png */,
 				6D346DC11CAE5A6800688589 /* Supporting Files */,
 			);
 			path = ShoppingCartDemo;
@@ -245,6 +248,7 @@
 			files = (
 				6DB9BEE91CAE5CCF004AD9DB /* ViewController.xib in Resources */,
 				6D346DC81CAE5A6800688589 /* Assets.xcassets in Resources */,
+				6D42EA291CB7912A007CC5A3 /* thing.png in Resources */,
 				6DB9BEEB1CAE5D73004AD9DB /* TabCartSelected@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
