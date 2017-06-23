@@ -28,7 +28,7 @@
     [ib_add addTarget:self action:@selector(addThingToCart) forControlEvents:UIControlEventTouchUpInside ];
     path = [UIBezierPath bezierPath];
     [path moveToPoint:CGPointMake(50, 150)];
-    [path addQuadCurveToPoint:CGPointMake(270, 300) controlPoint:CGPointMake(150, 20)];
+    [path addQuadCurveToPoint:CGPointMake(iv_cart.frame.origin.x + iv_cart.frame.size.width / 2.0, iv_cart.frame.origin.y + iv_cart.frame.size.height / 2.0) controlPoint:CGPointMake(150, 20)];
     
     // Do any additional setup after loading the view from its nib.
 }
