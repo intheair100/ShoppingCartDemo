@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 
-@interface ViewController ()
+@interface ViewController ()<CAAnimationDelegate> 
 {
     CALayer* layer;
     UILabel* cntLabel;
@@ -84,6 +84,14 @@
     groups.fillMode=kCAFillModeForwards;
     groups.delegate = self;
     [layer addAnimation:groups forKey:@"group"];
+}
+
+
+/**
+ 动画结束后让物品消失
+ */
+- (void)animationDidStop:(CAAnimation *)anim finished:(BOOL)flag{
+    layer.hidden = YES;
 }
 /*
  #pragma mark - Navigation
